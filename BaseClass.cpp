@@ -9,13 +9,7 @@ BaseClass::BaseClass
 		std::vector <std::vector<std::string> > &game_state):rows{row_count},
 columns{col_count},game_state{game_state}
 {
-	std::cout<<"\nThis is the Base Class constructor"<<std::endl;
 }
-BaseClass::~BaseClass()
-{
-	std::cout<<"This is the BaseClass destructor\n"<<std::endl;
-}
-
 std::vector <std::vector<std::string> > BaseClass::get_game_state()
 {
 	return game_state;
