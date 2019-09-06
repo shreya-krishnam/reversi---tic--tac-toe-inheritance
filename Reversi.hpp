@@ -1,9 +1,3 @@
-/*
- * Reversi.hpp
- *
- *  Created on: Aug 23, 2019
- *      Author: Shreya
- */
 
 #ifndef REVERSI_HPP_
 #define REVERSI_HPP_
