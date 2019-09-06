@@ -26,7 +26,6 @@ private:
 public:
 	BaseClass(unsigned int &row_count, unsigned int &col_count,
 			std::vector<std::vector<std::string> > &game_state);
-	~BaseClass();
 	void print_board(std::vector <std::vector<std::string> > &game_state);
 	std::vector <std::vector<std::string> > get_game_state();
 	unsigned int get_num_players();
