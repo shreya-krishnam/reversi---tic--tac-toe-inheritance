@@ -1,9 +1,3 @@
-/*
- * player.hpp
- *
- *  Created on: Aug 19, 2019
- *      Author: Shreya
- */
 
 #ifndef PLAYER_HPP_
 #define PLAYER_HPP_
