@@ -1,9 +1,4 @@
-/*
- * BaseClass.hpp
- *
- *  Created on: Aug 15, 2019
- *      Author: Shreya
- */
+
 #ifndef BASECLASS_HPP_
 #define BASECLASS_HPP_
 
