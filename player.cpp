@@ -1,12 +1,5 @@
-/*
- * player.cpp
- *
- *  Created on: Aug 19, 2019
- *      Author: Shreya
- */
 #include "player.hpp"
 #include<iostream>
-//Player::Player():Player{" "}{std::cout<<"loo";}
 Player::Player(const std::string& p_name,unsigned int& score):player_name{p_name},score{score}
 {
 
