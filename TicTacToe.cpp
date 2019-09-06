@@ -1,10 +1,4 @@
-/*
- * TicTacToe.cpp
- *
- *  Created on: Aug 17, 2019
- *      Author: Shreya
- */
-//NAME: SHREYA KRISHNAM STUDENT ID:23162697
+
 #include<iostream>
 #include<vector>
 #include<map>
@@ -14,11 +8,6 @@
 TicTacToe::TicTacToe(unsigned int& rows,unsigned int& columns,
 		std::vector <std::vector<std::string> >& game_state):BaseClass{rows,columns,game_state},game_state{game_state}
 {
-	std::cout<<"\nThis is the Derived Class TicTacToe Constructor\n"<<std::endl;
-}
-TicTacToe::~TicTacToe()
-{
-	std::cout<<"\nThis is the Derived Class TicTacToe Destructor\n"<<std::endl;
 }
 int TicTacToe::check_win()
 {
