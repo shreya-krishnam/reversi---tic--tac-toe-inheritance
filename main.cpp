@@ -1,5 +1,3 @@
-//NAME: SHREYA KRISHNAM STUDENT ID:23162697
-
 #include "TicTacToe.hpp"
 #include "BaseClass.hpp"
 #include "Reversi.hpp"
