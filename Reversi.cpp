@@ -1,23 +1,11 @@
-/*
- * Reversi.cpp
- *
- *  Created on: Aug 23, 2019
- *      Author: Shreya
- */
+
 
 #include "Reversi.hpp"
 
 Reversi::Reversi(unsigned int &rows,unsigned int& columns,std::vector <std::vector<std::string> > &game_state)
 :BaseClass{rows,columns,game_state},rows{rows},columns{columns},game_state{game_state}
 {
-	std::cout<<"\nThis is the Derived Class Reversi Constructor\n"<<std::endl;
 }
-
-Reversi::~Reversi()
-{
-	std::cout<<"\nThis is the Reversi Derived class destructor\n"<<std::endl;
-}
-
 void Reversi::set_initial_game_state()
 {
 	game_state[3][4] = game_state[4][3] = symbols[1];
