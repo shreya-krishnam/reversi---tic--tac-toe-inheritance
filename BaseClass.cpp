@@ -1,10 +1,4 @@
-/*
- * BaseClass.cpp
- *
- *  Created on: Aug 15, 2019
- *      Author: Shreya
- */
-//NAME: SHREYA KRISHNAM STUDENT ID:23162697
+
 #include<iterator>
 #include<iostream>
 #include<vector>
