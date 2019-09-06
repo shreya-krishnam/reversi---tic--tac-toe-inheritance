@@ -1,10 +1,4 @@
-/*
- * TicTacToe.hpp
- *
- *  Created on: Aug 17, 2019
- *      Author: Shreya
- */
-//NAME: SHREYA KRISHNAM STUDENT ID:23162697
+
 #ifndef TICTACTOE_HPP_
 #define TICTACTOE_HPP_
 #include<iostream>
